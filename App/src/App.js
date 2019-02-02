@@ -83,7 +83,7 @@ class App extends Component {
         <Container>
           <Row>
             {this.state.Friends.map(friend => (
-              <Column size="md-2 sm-6">
+              <Column size="md-3 sm-6">
                 <Card
                   key={friend.id}
                   handleClick={this.handleClick}
